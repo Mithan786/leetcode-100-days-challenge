@@ -1,5 +1,5 @@
 #Day-1
-#First Code
+# Question - 1
 class Solution {
     public int[] twoSum(int[] nums, int target) {
         for (int i = 0; i < nums.length; i++) {
@@ -13,8 +13,8 @@ class Solution {
     }
 }
 
-#Day-1
-#Second Code
+
+# Question - 2
 class Solution {
     public boolean isPalindrome(int x) {
         int temp =x, sum =0;
