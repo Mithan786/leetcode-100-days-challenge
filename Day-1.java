@@ -1,6 +1,5 @@
-#Day-1
-# Question - 1
-class Solution {
+#Q-1:Two Sum?
+ class Solution {
     public int[] twoSum(int[] nums, int target) {
         for (int i = 0; i < nums.length; i++) {
             for (int j = i+1; j < nums.length; j++) {
@@ -14,7 +13,7 @@ class Solution {
 }
 
 
-# Question - 2
+#Q-2:Palindrome Number?
 class Solution {
     public boolean isPalindrome(int x) {
         int temp =x, sum =0;
