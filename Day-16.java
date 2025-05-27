@@ -1,4 +1,4 @@
-#Q1.
+#Q-1:Maximum Ascending Subarray Sum?
   class Solution {
     public int maxAscendingSum(int[] nums) {
         int max = nums[0];
@@ -19,7 +19,7 @@
     }
 }
 
-#Q2
+#Q-2:Find Lucky Integer in an Array?
   class Solution {
     public int findLucky(int[] arr) {
         HashMap<Integer,Integer> HM = new HashMap<>();
