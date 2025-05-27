@@ -1,4 +1,4 @@
-#Q-1
+#Q-1:Container With Most Water?
   class Solution {
     public int maxArea(int[] height) {
         int start = 0;
@@ -26,7 +26,7 @@
 }
 
 
-#Q2
+#Q-2:Increasing Triplet Subsequence?
   class Solution {
     public boolean increasingTriplet(int[] nums) {
         int First = Integer.MAX_VALUE;
