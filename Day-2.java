@@ -1,3 +1,4 @@
+#Q-1:Check whether a given integer is a power of two?
 class Solution {
     public boolean isPowerOfTwo(int n) {
     // First Solution 
