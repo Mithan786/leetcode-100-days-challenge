@@ -1,3 +1,4 @@
+#Q-1:Missing Number?
 class Solution {
     public int missingNumber(int[] nums) {
         int range = nums.length;
