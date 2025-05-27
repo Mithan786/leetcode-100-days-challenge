@@ -1,5 +1,4 @@
-#Day-3
-# Question  - 1
+#Q-1:Fibonacci Number?
 class Solution {
     public int fib(int n) {
         if(n==0){
@@ -20,7 +19,7 @@ class Solution {
     }
 }
 
-# Question - 2
+#Q-2:N-th Tribonacci Number?
 class Solution {
     public int tribonacci(int n) {
         if(n==0){
