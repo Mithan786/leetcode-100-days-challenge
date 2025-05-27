@@ -6,21 +6,21 @@ class Solution {
         int ptr = nums.length - 1;
 
         while(start <= end){
-            int ss = nums[start] * nums[start];
-            int ee = nums[end] * nums[end];
+            int ss = nums[start] * nums[start];  // square from start
+            int ee = nums[end] * nums[end];      // square from end
 
-            if(st>ed){
-                ans[ptr] = st;
-                start++;
+            if(ss > ee){                         // compare squares
+                ans[ptr] = ss;                   // place bigger square
+                start++;                         // move start forward
+            } else {
+                ans[ptr] = ee;                   // place bigger square
+                end--;                           // move end backward
             }
-            else{
-                ans[ptr] = ed;
-                end--;
-            }
-            
-            ptr--;
+
+            ptr--;                               // fill next position
         }
 
         return ans;
     }
 }
+
