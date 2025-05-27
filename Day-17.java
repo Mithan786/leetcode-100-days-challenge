@@ -1,4 +1,4 @@
-#Q-1
+#Q-1:Binary Search?
   class Solution {
     public int search(int[] nums, int target) {
         int start = 0;
@@ -21,7 +21,7 @@
     }
 }
 
-#Q-2
+#Q-2:Find First and Last Position of Element in Sorted Array?
   class Solution {
     public int[] searchRange(int[] nums, int target) {
         int[] ans = {-1, -1};
