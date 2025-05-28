@@ -1,0 +1,1 @@
+Welcome to my 100 Days of Code challenge! This repository documents my journey of solving coding problems on LeetCode for 100 consecutive days. The goal is to enhance my problem-solving skills, strengthen my data structures and algorithms knowledge, and stay consistent in learning and practicing.
